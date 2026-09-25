@@ -1,8 +1,8 @@
-# Cross-Portal Handoff Protocol (CPH) — Specification v0.1 (Draft)
+# Cross-Portal Handoff Protocol (CPH) — Specification v0.1.0
 
-**Status:** Draft for review. This is an open protocol, not a standard. Not a release.  
+**Status:** Experimental Open Specification. Not a standard.  
 **Origin:** Play · Civilisation Field (play.civilisationfield.com)  
-**Drafted by:** Opus (Claude) · **Reviewed by:** GPT · **Cold-start:** Vibe, 2026-09-25 · **Decided by:** Tuzi  
+**Drafted by:** Opus (Claude) · **Reviewed by:** GPT · **Cold-start:** Vibe, 2026-09-25 · **Adversarial review:** Lumo, 2026-09-25 · **Decided by:** Tuzi  
 **Date:** 2026-09-25  
 **License:** CC BY 4.0 (text). Any code in this repository: MIT.
 
@@ -352,3 +352,4 @@ First line `G3` is the action. Everything after it is commentary.
 | v0.1 | 2026-09-25 | First draft, derived from GO-TEST-001, GO-001 and GO-002 |
 | v0.1 clarifications | 2026-09-25 | After Vibe cold-start. Scope, turn guard, reason codes, exact first line, timeout. Documentation only. Pending second review. Not a release. |
 | v0.1 clarifications | 2026-09-25 | After Lumo adversarial review. Quoted commentary, fixed rejection wording, `game_closed`, ASCII Go actions, degraded provenance. No signing. Not a release. |
+| v0.1.0 | 2026-09-25 | Packaged as an Experimental Open Specification. No protocol change from the Lumo clarification commit. |
