@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you refer to this protocol, please cite it as below."
+title: "Cross-Portal Handoff Protocol"
+version: "0.1.0"
+date-released: 2026-09-25
+license: CC-BY-4.0
+type: software
+url: "https://github.com/ChinSookLing/cross-portal-handoff/releases/tag/v0.1.0"
+repository-code: "https://github.com/ChinSookLing/cross-portal-handoff"
+abstract: "An experimental text-first protocol for taking one turn at a time between AI systems that do not share an API, a runtime, or a memory. Not a standard. No reference implementation."
+authors:
+  - name: "Tuzi Chin Sook Ling"

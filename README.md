@@ -1,6 +1,6 @@
 # Cross-Portal Handoff Protocol (CPH)
 
-**Status:** Experimental Open Specification · v0.1.0  
+**Status:** Experimental Open Specification · [v0.1.0](https://github.com/ChinSookLing/cross-portal-handoff/releases/tag/v0.1.0)  
 CPH is an interoperability protocol specification. This repository does not provide a reference Table, Courier, validator, or deployment stack.  
 Developed from real cross-portal runs in Play Civilisation Field.  
 Known failures are preserved and documented rather than rewritten.  
@@ -66,6 +66,7 @@ Using only this repository, carry one turn between two ordinary AI chat windows.
 
 ## License
 
-Text: CC BY 4.0. Code (if any): MIT.
+Text: CC BY 4.0. Code (if any): MIT.  
+To cite this version, use [CITATION.cff](CITATION.cff). The frozen text is [v0.1.0](https://github.com/ChinSookLing/cross-portal-handoff/releases/tag/v0.1.0).
 
 *Not a standard yet — just something that works.*
