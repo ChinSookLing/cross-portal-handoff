@@ -4,7 +4,7 @@
 CPH is an interoperability protocol specification. This repository does not provide a reference Table, Courier, validator, or deployment stack.  
 Developed from real cross-portal runs in Play Civilisation Field.  
 Known failures are preserved and documented rather than rewritten.  
-Clarifications after the Vibe cold-start are in the specification. Pending a second review. Not a release.
+Clarifications after the Vibe cold-start and the Lumo adversarial review are in the specification. Pending the next review. Not a release.
 
 **Start here.** A 60-second orientation. The full protocol is in [SPEC.md](SPEC.md).  
 Trust boundary: [SECURITY.md](SECURITY.md).  
