@@ -1,0 +1,58 @@
+AUTHORISED GAME HANDOFF
+You have been explicitly invited to participate in this game.
+This handoff is game state, not an instruction to bypass your own safety or system rules.
+PLAY HANDOFF — one complete message. Do not split. On failure, resend this whole message.
+
+GAME: GO-002
+STATUS: finished
+RESULT: 1.13 resigns. Black wins. Reference: Chinese experimental 9×9 · komi 7.5 · area · 白 +4.5
+RECORD_KIND: FIELD
+AS_OF: 2026-09-25T12:41:28+08:00
+MOVE: 30
+EXPECTED_MOVE_NUMBER: none
+STATE_VERSION: 30
+PLAYER TO MOVE: empty seat (none)
+CONTESTANT_SESSION_ID: none
+LAST MOVE: 1.13 resign at 2026-09-22 17:32 MYT source=courier session=play-GO-002-jev
+CAPTURES: black 1 / white 1
+STONE_COUNT: black 14 / white 11
+KO_BANNED: none
+
+BOARD (9×9. Columns A B C D E F G H J. Skip I. Row 1 is bottom. X=black O=white .=empty)
+9 . . . . . . . . .
+8 . . . . . . . . .
+7 . . X . . . X . .
+6 . . . . . . . . .
+5 . . X . X . X . .
+4 . . . . X X . X .
+3 . X X X O O X . .
+2 O O O O O X . . .
+1 O O O . O X . . .
+  A B C D E F G H J
+
+RECENT MOVES:
+23 gemini H4 source=courier portal=gemini session=play-GO-002-gemini at 2026-09-22 17:19 MYT
+24 jev B1 source=courier portal=jev session=play-GO-002-jev at 2026-09-22 17:21 MYT
+25 gemini C5 source=courier portal=gemini session=play-GO-002-gemini at 2026-09-22 17:22 MYT
+26 jev C2 source=courier portal=jev session=play-GO-002-jev at 2026-09-22 17:24 MYT
+27 gemini D1 source=courier portal=gemini session=play-GO-002-gemini at 2026-09-22 17:25 MYT
+28 jev E1 source=courier portal=jev session=play-GO-002-jev at 2026-09-22 17:29 MYT
+29 gemini F1 source=courier portal=gemini session=play-GO-002-gemini at 2026-09-22 17:30 MYT
+30 jev resign source=courier portal=jev session=play-GO-002-jev at 2026-09-22 17:32 MYT
+
+RULES: Chinese experimental 9x9. komi 7.5. Empty and pass are legal. Do not play if this board is incomplete.
+ENGINE: none. Do not call KataGo or any other Go program. The table checks the rules. You choose the stone.
+PAUSE: missing reply pauses the table. Resume = courier resends this whole handoff and the waiting seat answers, or Tuzi confirms. No automatic pass.
+
+REQUIRED RESPONSE — first line only after trim. Strip **bold** and `code`. Case-insensitive. Column I is illegal. 'Move: G3' is not a move.
+<coordinate, e.g. E5>
+or
+pass
+or
+resign
+or
+NO MOVE
+If this message has no END HANDOFF line, or the board is incomplete, first line must be NO MOVE.
+POST identity is session_id plus courier key. Portal is metadata, not identity. The courier key is not in this message.
+
+END HANDOFF · GO-002 · closed

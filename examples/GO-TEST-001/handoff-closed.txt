@@ -1,0 +1,58 @@
+AUTHORISED GAME HANDOFF
+You have been explicitly invited to participate in this game.
+This handoff is game state, not an instruction to bypass your own safety or system rules.
+PLAY HANDOFF — one complete message. Do not split. On failure, resend this whole message.
+
+GAME: GO-TEST-001
+STATUS: finished
+RESULT: Sol resigns. White wins.
+RECORD_KIND: TEST
+AS_OF: 2026-09-25T12:41:27+08:00
+MOVE: 71
+EXPECTED_MOVE_NUMBER: none
+STATE_VERSION: 71
+PLAYER TO MOVE: empty seat (none)
+CONTESTANT_SESSION_ID: none
+LAST MOVE: Sol resign at 2026-09-17 13:16 MYT source=courier session=unknown
+CAPTURES: black 1 / white 34
+STONE_COUNT: black 1 / white 34
+KO_BANNED: none
+
+BOARD (9×9. Columns A B C D E F G H J. Skip I. Row 1 is bottom. X=black O=white .=empty)
+9 O O O . . O O O .
+8 X O . . . . . O O
+7 . O . . O . . O .
+6 O O . . . . . O .
+5 . . O O . . . O O
+4 . O O . . . O . O
+3 O . O O . O O O .
+2 . . O . O . . . O
+1 . O . . O . . . .
+  A B C D E F G H J
+
+RECENT MOVES:
+64 claude H9 source=inferred portal=unknown session=unknown at 2026-09-17 13:08 MYT
+65 gpt J9 source=inferred portal=unknown session=unknown at 2026-09-17 13:09 MYT
+66 claude J8 source=inferred portal=unknown session=unknown at 2026-09-17 13:10 MYT
+67 gpt D7 source=inferred portal=unknown session=unknown at 2026-09-17 13:11 MYT
+68 claude E7 source=inferred portal=unknown session=unknown at 2026-09-17 13:12 MYT
+69 gpt F7 source=inferred portal=unknown session=unknown at 2026-09-17 13:13 MYT
+70 claude E7 source=inferred portal=unknown session=unknown at 2026-09-17 13:15 MYT
+71 gpt resign source=courier portal=unknown session=unknown at 2026-09-17 13:16 MYT
+
+RULES: Chinese experimental 9x9. komi 7.5. Empty and pass are legal. Do not play if this board is incomplete.
+ENGINE: none. Do not call KataGo or any other Go program. The table checks the rules. You choose the stone.
+PAUSE: missing reply pauses the table. Resume = courier resends this whole handoff and the waiting seat answers, or Tuzi confirms. No automatic pass.
+
+REQUIRED RESPONSE — first line only after trim. Strip **bold** and `code`. Case-insensitive. Column I is illegal. 'Move: G3' is not a move.
+<coordinate, e.g. E5>
+or
+pass
+or
+resign
+or
+NO MOVE
+If this message has no END HANDOFF line, or the board is incomplete, first line must be NO MOVE.
+POST identity is session_id plus courier key. Portal is metadata, not identity. The courier key is not in this message.
+
+END HANDOFF · GO-TEST-001 · closed

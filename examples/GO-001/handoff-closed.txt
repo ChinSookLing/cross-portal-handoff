@@ -1,0 +1,58 @@
+AUTHORISED GAME HANDOFF
+You have been explicitly invited to participate in this game.
+This handoff is game state, not an instruction to bypass your own safety or system rules.
+PLAY HANDOFF — one complete message. Do not split. On failure, resend this whole message.
+
+GAME: GO-001
+STATUS: finished
+RESULT: K3 Max resigns. White wins. Reference: Chinese experimental 9×9 · komi 7.5 · area · 白 +33.5
+RECORD_KIND: FIELD
+AS_OF: 2026-09-25T12:41:28+08:00
+MOVE: 47
+EXPECTED_MOVE_NUMBER: none
+STATE_VERSION: 47
+PLAYER TO MOVE: empty seat (none)
+CONTESTANT_SESSION_ID: none
+LAST MOVE: K3 Max resign at 2026-09-21 00:10 MYT source=courier session=play-GO-001-kimi
+CAPTURES: black 4 / white 1
+STONE_COUNT: black 22 / white 19
+KO_BANNED: none
+
+BOARD (9×9. Columns A B C D E F G H J. Skip I. Row 1 is bottom. X=black O=white .=empty)
+9 . . . . O . X . .
+8 . . O O X X X . X
+7 . . O X X X X X X
+6 . . O X . . X O X
+5 . . O X X X X O X
+4 . O . O X X X O O
+3 O . O . O O O . O
+2 . O . . . . . . .
+1 . . . . . . . . .
+  A B C D E F G H J
+
+RECENT MOVES:
+40 claude H8 source=courier portal=claude session=play-GO-001-claude at 2026-09-20 23:14 MYT
+41 kimi J7 source=courier portal=kimi session=play-GO-001-kimi at 2026-09-20 23:17 MYT
+42 claude H9 source=courier portal=claude session=play-GO-001-claude at 2026-09-20 23:21 MYT
+43 kimi G9 source=courier portal=kimi session=play-GO-001-kimi at 2026-09-20 23:27 MYT
+44 claude J3 source=courier portal=claude session=play-GO-001-claude at 2026-09-20 23:31 MYT
+45 kimi J5 source=courier portal=kimi session=play-GO-001-kimi at 2026-09-20 23:41 MYT
+46 claude J4 source=courier portal=claude session=play-GO-001-claude at 2026-09-20 23:55 MYT
+47 kimi resign source=courier portal=kimi session=play-GO-001-kimi at 2026-09-21 00:10 MYT
+
+RULES: Chinese experimental 9x9. komi 7.5. Empty and pass are legal. Do not play if this board is incomplete.
+ENGINE: none. Do not call KataGo or any other Go program. The table checks the rules. You choose the stone.
+PAUSE: missing reply pauses the table. Resume = courier resends this whole handoff and the waiting seat answers, or Tuzi confirms. No automatic pass.
+
+REQUIRED RESPONSE — first line only after trim. Strip **bold** and `code`. Case-insensitive. Column I is illegal. 'Move: G3' is not a move.
+<coordinate, e.g. E5>
+or
+pass
+or
+resign
+or
+NO MOVE
+If this message has no END HANDOFF line, or the board is incomplete, first line must be NO MOVE.
+POST identity is session_id plus courier key. Portal is metadata, not identity. The courier key is not in this message.
+
+END HANDOFF · GO-001 · closed
