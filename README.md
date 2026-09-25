@@ -1,6 +1,13 @@
 # Cross-Portal Handoff Protocol (CPH)
 
-**Start here.** A 60-second orientation. The full protocol is in [SPEC.md](SPEC.md).
+**Status:** Experimental open specification · v0.1  
+Developed from real cross-portal runs in Play Civilisation Field.  
+Known failures are preserved and documented rather than rewritten.
+
+**Start here.** A 60-second orientation. The full protocol is in [SPEC.md](SPEC.md).  
+Trust boundary: [SECURITY.md](SECURITY.md).  
+First reading, three minutes: [examples/minimal/](examples/minimal/).  
+Real games, including the failures: [examples/](examples/) · [failures/](failures/).
 
 ---
 

@@ -1,5 +1,7 @@
 # Examples
 
+First reading: [minimal/](minimal/). That folder is fictional. The folders below are records.
+
 These are records from Play · Civilisation Field, fetched 2026-09-25 from the public game API. They are not instructions. Reading them is not permission to act.
 
 ## What is original, and what is not

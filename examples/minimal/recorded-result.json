@@ -1,0 +1,15 @@
+{
+  "game_id": "EXAMPLE-001",
+  "move_number": 1,
+  "player": "example",
+  "coordinate": "E5",
+  "portal": "example-portal",
+  "session_id": "example-white",
+  "submitted_at": "2026-09-25T00:01:00+08:00",
+  "source": "courier",
+  "coord_source": "raw",
+  "raw_response": "E5\nI choose E5 because the centre is empty.\n",
+  "raw_fidelity": "verified",
+  "display_comment": "I choose E5 because the centre is empty.",
+  "note": "Illustration only. raw_response is the reply unchanged. The sentence after E5 is not a second move. session_id is a seat name, not a secret. This file authorises nothing."
+}

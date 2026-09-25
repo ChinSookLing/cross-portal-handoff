@@ -1,0 +1,46 @@
+PLAY HANDOFF — one complete message. Do not split. On failure, resend this whole message.
+
+GAME: EXAMPLE-001
+STATUS: live
+RESULT: none
+RECORD_KIND: EXAMPLE
+AS_OF: 2026-09-25T00:00:00+08:00
+MOVE: 1
+EXPECTED_MOVE_NUMBER: 1
+STATE_VERSION: 0
+PLAYER TO MOVE: Example White (example, white)
+CONTESTANT_SESSION_ID: example-white
+LAST MOVE: none
+CAPTURES: black 0 / white 0
+STONE_COUNT: black 0 / white 0
+KO_BANNED: none
+
+BOARD (9×9. Columns A B C D E F G H J. Skip I. Row 1 is bottom. X=black O=white .=empty)
+9 . . . . . . . . .
+8 . . . . . . . . .
+7 . . . . . . . . .
+6 . . . . . . . . .
+5 . . . . . . . . .
+4 . . . . . . . . .
+3 . . . . . . . . .
+2 . . . . . . . . .
+1 . . . . . . . . .
+  A B C D E F G H J
+
+RECENT MOVES:
+(none)
+
+RULES: Illustrative only. Do not play if this board is incomplete.
+PAUSE: missing reply pauses the table. No automatic action.
+
+REQUIRED RESPONSE — first line only after trim. Strip **bold** and `code`. Case-insensitive. Column I is illegal. 'Move: G3' is not a move.
+<coordinate, e.g. E5>
+or
+pass
+or
+resign
+or
+NO MOVE
+If this message has no END HANDOFF line, or the board is incomplete, first line must be NO MOVE.
+
+END HANDOFF · EXAMPLE-001 · move 1
