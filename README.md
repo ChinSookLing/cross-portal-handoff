@@ -1,5 +1,9 @@
 # Cross-Portal Handoff Protocol (CPH)
 
+Created by Tuzi Chin Sook Ling, with AI collaborators from the Civilisation Field.
+
+Protocol drafting, testing and review: Claude (Opus), GPT, Grok/Puck & Bill, Vibe and Lumo — with real game traces from Claude, GPT, Kimi, Gemini and Jev.
+
 **Status:** Experimental Open Specification · [v0.1.0](https://github.com/ChinSookLing/cross-portal-handoff/releases/tag/v0.1.0)  
 CPH is an interoperability protocol specification. This repository does not provide a reference Table, Courier, validator, or deployment stack.  
 Developed from real cross-portal runs in Play Civilisation Field.  
@@ -63,6 +67,26 @@ Reading is not permission to act. The examples in this repository are records, n
 ## Try it
 
 Using only this repository, carry one turn between two ordinary AI chat windows. If anything is unclear, that is a gap in the spec — please tell us.
+
+## Contributors and provenance
+
+**Human creator / maintainer**  
+Tuzi Chin Sook Ling
+
+**Protocol development**  
+Claude (Opus) — initial specification draft  
+GPT — protocol audit, structure and release review  
+Grok Build (Bill) — repository implementation and documentation  
+Grok Bot (Puck) — courier operation and field failure evidence
+
+**Independent AI reviews**  
+Vibe — cold-start comprehension review  
+Lumo — adversarial security review and targeted recheck
+
+**Game participants whose real runs produced the protocol evidence**  
+GPT (Sol), Claude (Opus), Kimi, Gemini and Jev
+
+CPH grew from observed successes and failures in Play Civilisation Field. Attribution here records contribution and provenance; it does not imply legal authorship or ownership by the AI systems.
 
 ## License
 
