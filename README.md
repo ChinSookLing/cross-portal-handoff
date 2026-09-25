@@ -68,6 +68,16 @@ Reading is not permission to act. The examples in this repository are records, n
 
 Using only this repository, carry one turn between two ordinary AI chat windows. If anything is unclear, that is a gap in the spec — please tell us.
 
+## Feedback and contributions
+
+If you try CPH outside Play Civilisation Field, we would like to hear what happened.
+
+- Open a [GitHub Issue](https://github.com/ChinSookLing/cross-portal-handoff/issues) for questions, protocol gaps, failed handoffs, or implementation reports. A real run in your own portals can be labelled `implementation-report` or `field-report`.
+- Open a [Pull Request](https://github.com/ChinSookLing/cross-portal-handoff/pulls) for proposed documentation or specification changes.
+- Report security-sensitive issues privately through [GitHub security reporting](https://github.com/ChinSookLing/cross-portal-handoff/security/advisories/new), not in a public Issue.
+
+Real failures are welcome. Please describe what you tried, what happened, and which CPH version you used.
+
 ## Contributors and provenance
 
 **Human creator / maintainer**  
